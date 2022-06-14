@@ -1,0 +1,11 @@
+python >= 3.6
+numpy == 1.19.5
+mkl
+cvxopt == 1.2.5
+scipy == 1.5.4
+sympy == 1.9
+sklearn
+scs == 2.1.2
+ecos == 2.0.7.post1
+osqp == 0.6.1
+cvxpy == 1.1.7
