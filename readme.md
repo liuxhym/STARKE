@@ -4,7 +4,22 @@
 
 ## Install
 ```bash
-git clone 
+# Clone the code to local
+git clone https://github.com/liuxhym/STARKE.git
+cd STARKE
+
+# Create virtual environment
+conda create -n starke python=3.6
+conda activate starke
+
+# Install basic dependency
+pip install -r requirements.txt
+```
+
+## Main Experiment
+To reproduce the main experiment reported in paper, run following scripts:
+```bash
+python example.py
 ```
 
 ## Reference
