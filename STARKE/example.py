@@ -20,7 +20,7 @@ from Tools.Kernel import *
 
 # 3. we can use teaching set to train Learner.
 
-# For hingeloss, we give the following example:
+# For hinge loss, we give the following example:
 dataloader = DataLoader(DataName="make_moon", n_samples=250)
 x, y = dataloader.getData()
 # n_components is a parameter to be settled, it will decide the size of teaching set
@@ -30,7 +30,7 @@ model, _ = hingelossTD.fit_model_with_teaching_set(teaching_set_x, teaching_set_
 print("teaching set size:", len(teaching_set_x))
 print("accuracy:", model.score(x, y))
 
-# For squareloss, we give the following example:
+# For square loss, we give the following example:
 dataloader = DataLoader(DataName="sin")
 x, y = dataloader.getData()
 # n_components is a parameter to be settled, it will decide the size of teaching set

@@ -28,7 +28,7 @@ python STARKE/example.py
 @inproceedings{
   qian2022teaching,
   title={The Teaching Dimension of Regularized Kernel Learners},
-  author={Hong Qian and Xu-Hui Liu and Chenxi Su and Aimin Zhou and Yang Yu},
+  author={Hong Qian and Xu-Hui Liu and Chen-Xi Su and Aimin Zhou and Yang Yu},
   booktitle={Proceedings of the 39th International Conference on Maching Learning},
   year={2022}
 }
