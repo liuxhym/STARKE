@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ## Main Experiment
 To reproduce the main experiment reported in paper, run following scripts:
 ```bash
-python example.py
+python STARKE/example.py
 ```
 
 ## Reference
